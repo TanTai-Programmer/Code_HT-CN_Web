@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Box</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: space-around;
+            background-color: aqua;
+            margin: 10px;
+        }
+        #box1{
+            display:flex;
+            width: 200px;
+            height: 200px;
+            background-color: antiquewhite;
+            margin: 10px;
+            flex-direction: column;
+            border-radius: 10px;
+            justify-content: space-around;
+        }
+        .content{
+            background-color: lightskyblue;
+            margin:10px;
+            display: flex;
+        }
+        #item-content{
+            background-color:lightpink;
+            margin:10px;
+            justify-content:center;
+            width: 50%;
+            height:100px;
+        }
+        .container-reverse{
+            display:flex;
+            background-color:lightgreen;
+            flex-direction: row-reverse;
+            justify-content: center;
+        }
+        #box2{
+            width: 250px;
+            height: 200px;
+            background-color: antiquewhite;
+            margin: 10px;
+        }
+        #item-box1{
+        }
+        #item-box1{
+             display:flex;
+        }
+        #image{
+           justify-content:center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="box1">
+            <p id="item-box1"><img src="https://img.freepik.com/premium-vector/man-avatar-profile-round-icon_24640-14044.jpg?w=740" id="image" width="250px" alt="Avarta">
+            <p>Chu trong anh</p></p>
+            <p id="item-box1">Day la Ten</p>
+            <p id="item-box1">Day la email</p>
+            <p id="item-box1">Day la chuc vu ABCD nao do</p>
+        </div>
+        <div id="box1"> Day la cai box 2</div>
+        <div id="box1"> Day la cai box 3</div>
+    </div>
+    <div class="content">
+        <p id="item-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor atque repudiandae amet eaque, distinctio iusto numquam libero odio animi nobis cum officia laborum! Eum id dolorum alias, architecto eveniet dolorem.</p>
+        <p id="item-content">
+            Day la cai content 2
+        </p>
+    </div>
+    <div class="container-reverse">
+        <div id="box2"> Day la cai box reverse 1 </div>
+        <div id="box2"> Day la cai box reverse 2</div>
+        <div id="box2"> Day la cai box reverse 3</div>
+    </div>
+</body>
+</html>
