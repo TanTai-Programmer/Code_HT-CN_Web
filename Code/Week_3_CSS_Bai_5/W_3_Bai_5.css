@@ -1,0 +1,18 @@
+body{
+background-image: url(http://elmistibota.com/wp-content/uploads/2021/08/canh-dep-viet-nam-6.jpg);
+}
+body{
+
+}
+#vanban1{
+    font-size: 30px;
+    font-weight: bold;    background-image:url(http://elmistibota.com/wp-content/uploads/2021/08/canh-dep-viet-nam-3-768x512.jpg);
+    background-position:left top;
+    background-repeat:no-repeat;
+}
+#vanban2{
+    font-size: 30px;
+    font-weight: bold;    background-image:url(http://elmistibota.com/wp-content/uploads/2021/08/canh-dep-viet-nam-2-768x427.jpg);
+    background-position: right bottom;
+    background-repeat: repeat;
+}
