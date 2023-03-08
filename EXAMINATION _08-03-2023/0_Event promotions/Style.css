@@ -95,10 +95,17 @@
 }
 #Infomation{
     display: flex;
-    font-size: 25px;
+    justify-content: space-around;
+    font-size: 20px;
+    color:gray;
 }
 #Infor{
-    font-size: 40px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+#Content-Infomation{
+    padding-top: 10px;
 }
 .content-container-4{
     display: flex;
@@ -119,4 +126,41 @@
     font-size:20px;
     width:450px;
     margin-right: 100px;
+}
+#Language{
+    width:130px;
+    height: 35px;
+    background-color: #1d2128;
+    color:gray;
+    font-size: 16px;
+    border-radius: 05px;
+    margin-left: 35px;
+}
+#Receive{
+    font-size: 20px;
+    color:gray;
+}
+#Receive-header{
+    font-size:30px;
+    color:white;
+}
+#Subcrible{
+    background-color:#459d7a;
+    width:125px;
+    height: 50px;
+    border-top-right-radius:10px ;
+    border-bottom-right-radius: 10px;
+}
+#Subcrible:hover{
+    background-color:#76b89e;
+    width:125px;
+    height: 50px;
+    border-top-right-radius:10px ;
+    border-bottom-right-radius: 10px;
+}
+#Input{
+    width: 300px;
+    height: 50px;
+    border-top-left-radius:10px;
+    border-bottom-left-radius: 10px;
 }
