@@ -163,4 +163,7 @@
     height: 50px;
     border-top-left-radius:10px;
     border-bottom-left-radius: 10px;
+    background-color: #1d2128;
+    border: 1px solid gray;
+    font-size:18px;
 }
