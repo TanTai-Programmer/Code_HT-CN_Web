@@ -121,13 +121,56 @@
     margin-right: 100px;
 }
 #footer{
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width:100%;
     height: 430px;
     background-color:#1d2128;
     font-size: 30px;
-    color:#dee1e6;
+    color: #9fa2a8;
+}
+#content-container{
+    display: flex;
+    flex-direction: column;
+
+
+}
+#content-container-contract{
+    display: flex;
+}
+#content_contract{
+    display: flex;
+}
+#content_contract_1{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+
+}
+#About{
+    color: #dee1e6;
+    font-size: 30px;
     font-weight: bold;
+}
+#Help{
+    color:#dee1e6;
+    font-size: 30px;
+    font-weight: bold;
+}
+#contract{
+    color:#dee1e6;
+    font-size: 30px;
+    font-weight: bold;
+}
+#Language{
+    width: 130px;
+    height: 40px;
+    border-radius:5px;
+    background-color: #1d2128;
+    font-size: 20px;
+    color: white;
+    margin-left: 40px;
 }
 
 
