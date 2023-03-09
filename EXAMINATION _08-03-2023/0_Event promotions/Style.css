@@ -1,4 +1,6 @@
-
+body{
+    margin:0px;
+}
 .Menu{
     display:flex;
     justify-content:space-around;
@@ -172,6 +174,34 @@
     color: white;
     margin-left: 40px;
 }
-
-
-
+#input{
+    display: flex;
+    justify-content:left;
+}
+#input-email{
+    width: 310px;
+    height: 51.5px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    background-color: #1d2128;
+    border: 1px solid gray;
+    font-size: 18px;
+}
+#Subscribe{
+    background-color: #459d7a;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 130px;
+    height: 55px;
+    border: 1px solid #459d7a;
+    font-size: 18px;
+    margin-bottom:3px;    
+}
+#copyright-1{
+    display: flex;
+    justify-content: left ;
+    font-size: 15px;
+}
+#copyright-2{
+   margin: 15px;
+}
