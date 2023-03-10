@@ -4,19 +4,27 @@ body{
 .Menu{
     display:flex;
     justify-content:space-around;
+    align-items: center;
 }
 #left{
+    margin:10px;
     font-size: 20px;
     color:gray;
     display: flex;
     width:30%;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
+#logo{
+    display: flex;
+    justify-content: center;
+}
+
 #right{
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
+    width:30%;
 }
 #Menu-item{
     padding:10px;
@@ -189,6 +197,16 @@ body{
 }
 #Subscribe{
     background-color: #459d7a;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 130px;
+    height: 55px;
+    border: 1px solid #459d7a;
+    font-size: 18px;
+    margin-bottom:3px;    
+}
+#Subscribe:hover{
+    background-color: #42ebad;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     width: 130px;
