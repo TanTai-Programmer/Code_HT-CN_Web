@@ -132,22 +132,29 @@ body{
 }
 #footer{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
     width:100%;
     height: 430px;
     background-color:#1d2128;
     font-size: 30px;
     color: #9fa2a8;
 }
+#footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    width: 100%;
+
+}
 #content-container{
     display: flex;
     flex-direction: column;
-
+    padding-right:50px;
 
 }
 #content-container-contract{
     display: flex;
+    align-items: flex-start
 }
 #content_contract{
     display: flex;
@@ -156,7 +163,7 @@ body{
     display: flex;
     flex-direction: column;
     font-size: 18px;
-
+    justify-content: space-around;
 }
 #About{
     color: #dee1e6;
@@ -172,6 +179,9 @@ body{
     color:#dee1e6;
     font-size: 30px;
     font-weight: bold;
+}
+#contract-items{
+    padding: 10px 0px;
 }
 #Language{
     width: 130px;
@@ -222,4 +232,16 @@ body{
 }
 #copyright-2{
    margin: 15px;
+}
+#receive-main{
+    color: #dee1e6;
+    margin: 18px 0px 18px 0px;
+    font-weight: bold;
+}
+#receive-content{
+    font-size: 20px;
+    margin: 10px 0px;
+}
+#phone-email{
+    color: #dee1e6;
 }
