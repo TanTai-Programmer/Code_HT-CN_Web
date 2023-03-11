@@ -30,10 +30,15 @@ body{
     padding:10px;
 }
 #search{
+    background-image: url(icons8-search.svg);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position:left;
     border-radius: 05px;
-    width:200px;
-    height: 36px;
-    opacity: 50%;;
+    width:165px;
+    height: 32px;
+    opacity: 50%;
+    padding-left: 30px;
 }
 .Header{
     font-size:60px;
@@ -83,7 +88,8 @@ body{
     height:50px;
     border: none;
     font-size: 20px;
-    color:white
+    color:white;
+    transition:0.7s linear;
 }
 #content-item{
     padding: 20px 70px 30px 70px;
