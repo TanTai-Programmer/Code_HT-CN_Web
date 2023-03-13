@@ -7,19 +7,25 @@ p{
     font-weight: bold;
     font:Trebuchet MS;
 }
+th:last-child{
+    text-align:right;
+}
 td{
     border: 1px solid #993738;
 }
-table {
+td:last-child{ /*Biết sài last-child rồi :Chọn thành phần cuối cùng mà có thành phần cha; ở đây cha của nó là Table */
+    text-align: right;
+    border: 1px solid #993738;
+}
+table{
+    text-align: left;
     font:Arial;
     border:2px solid #993738;
-    border-collapse:collapse;
+    border-collapse:collapse; /*Gộp các viền lại */
 }
 #phai{
-    text-align:right;
     width:100px;
 }
 #trai{
     width:250px;
-    text-align:left;
 }
