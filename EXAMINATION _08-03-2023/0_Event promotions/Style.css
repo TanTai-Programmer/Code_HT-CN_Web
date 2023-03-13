@@ -74,7 +74,7 @@ body{
 }
 #Shopnow{
     background-color:#459d7a;
-    border-radius:10px ;
+    border-radius:5px ;
     width:200px;
     height:50px;
     border: none;
@@ -83,7 +83,7 @@ body{
 }
 #Shopnow:hover{
     background-color:#063b26;
-    border-radius:10px ;
+    border-radius:5px ;
     width:200px;
     height:50px;
     border: none;
@@ -205,7 +205,7 @@ body{
 #input-email{
     background-image: url(icons8-envelope-24.png);
     background-repeat: no-repeat;
-    background-size:35px;
+    background-size:30px;
     background-position:26px;
     width: 310px;
     height: 51.5px;
@@ -255,4 +255,17 @@ body{
 }
 #phone-email{
     color: #dee1e6;
+}
+#Social_contract{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    margin:15px 0px;
+}
+#Social_contract_logo{
+    width: 25px;
+    height: 25px;
+
 }
