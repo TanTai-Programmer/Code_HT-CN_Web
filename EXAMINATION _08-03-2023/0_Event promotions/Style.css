@@ -160,7 +160,8 @@ body{
 }
 #content-container-contract{
     display: flex;
-    align-items: flex-start
+    align-items: flex-start;
+
 }
 #content_contract{
     display: flex;
@@ -170,6 +171,7 @@ body{
     flex-direction: column;
     font-size: 18px;
     justify-content: space-around;
+    padding: 0px 50px;
 }
 #About{
     color: #dee1e6;
