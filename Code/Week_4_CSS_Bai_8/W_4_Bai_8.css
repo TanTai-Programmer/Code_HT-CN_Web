@@ -1,0 +1,33 @@
+/*Đặt biến CSS và các sử dụng 
+:root{
+    --color:green;
+}
+
+h1{
+    color: var(--color);
+}
+*/
+ :root{
+    --border-top-color:#85C226;
+    --border-right-color:#F7C200;
+    --border-bottom-color:#4493a0;
+    --border-left-color:#DF127B;
+}
+#border-color{
+    border: 10px solid;
+    border-color: var(--border-top-color) var(--border-right-color) var(--border-bottom-color) var(--border-left-color);
+    font-weight: bold;
+    text-align: center;
+}
+#border-style{
+    border: 10px ;
+    text-align: center;
+    border-style:solid dotted groove double;
+    border-color: var(--border-top-color) var(--border-right-color) var(--border-bottom-color) var(--border-left-color);
+}
+#border-width{
+    text-align: center;
+    border: 10px solid;
+    border-color: var(--border-top-color) var(--border-right-color) var(--border-bottom-color) var(--border-left-color);
+    border-width: 5px 10px 15px 20px;
+}
