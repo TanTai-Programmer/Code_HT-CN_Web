@@ -1,0 +1,67 @@
+#Facebook{
+    margin: 5px;
+    width: 200px;
+    height: 80px;
+    border: 5px solid red;
+    background-image: url(Facebook_logo.png);
+    background-size: 180px;
+    background-repeat: 
+    no-repeat;
+    background-position: center;
+}
+#Facebook:hover{
+    margin: 5px;
+    width: 200px;
+    height: 80px;
+    border: 10px double red;
+    background-image: url(Facebook_logo.png);
+    background-size: 180px;
+    background-repeat: 
+    no-repeat;
+    background-position: center;
+}
+#Microsoft{
+    margin:5px;
+    width: 200px;
+    height: 80px;
+    border: 5px solid red;
+    background-image: url(Microsoft-Logo.png);
+    background-size: 180px;
+    background-repeat: 
+    no-repeat;
+    background-position: center;
+}
+
+#Microsoft:hover{
+    margin:5px;
+    width: 200px;
+    height: 80px;
+    border: 5px double red;
+    background-image: url(Microsoft-Logo.png);
+    background-size: 180px;
+    background-repeat: 
+    no-repeat;
+    background-position: center;
+}
+#Nextjump{
+    margin:5px;
+    width: 200px;
+    height: 80px;
+    border: 5px solid red;
+    background-image: url(NextJum_logo.png);
+    background-size: 180px;
+    background-repeat: 
+    no-repeat;
+    background-position: center;
+}
+#Nextjump:hover{
+    margin:5px;
+    width: 200px;
+    height: 80px;
+    border: 5px double red;
+    background-image: url(NextJum_logo.png);
+    background-size: 180px;
+    background-repeat: 
+    no-repeat;
+    background-position: center;
+}
