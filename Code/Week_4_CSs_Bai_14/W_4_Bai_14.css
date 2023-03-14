@@ -23,4 +23,17 @@
 #transition{
     color: white;
     font-size: 15px;
+    text-align: justify;
+    line-height: 16px;
+    transition: all 2s;
 }
+#transition:hover{
+    transform: scale(2) rotate(360deg);
+    -webkit-transform: scale(2) rotate(360deg);
+    -moz-transform: scale(2) rotate(360deg);
+    -o-transform: scale(2) rotate(360deg);
+    -ms-transform: scale(2) rotate(360deg);
+    background: #1EC7E6;
+    opacity: 0.8;
+}
+
