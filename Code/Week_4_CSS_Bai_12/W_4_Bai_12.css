@@ -1,5 +1,10 @@
+#main{
+    position: relative;
+}
 #ribbon{
-    width: 100px;
+    position:fixed;
+    margin: 0 -30px;
+    width: 1000px;
     height: 40px;
     background-color: red;
     transform: rotate(-45deg) ;
