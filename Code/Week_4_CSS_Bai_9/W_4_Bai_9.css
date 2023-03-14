@@ -1,3 +1,6 @@
+body{
+    display: inline;
+}
 #Facebook{
     margin: 5px;
     width: 200px;
@@ -13,7 +16,7 @@
     margin: 5px;
     width: 200px;
     height: 80px;
-    border: 10px double red;
+    border: 5px double red;
     background-image: url(Facebook_logo.png);
     background-size: 180px;
     background-repeat: 
@@ -60,6 +63,94 @@
     height: 80px;
     border: 5px double red;
     background-image: url(NextJum_logo.png);
+    background-size: 180px;
+    background-repeat: 
+    no-repeat;
+    background-position: center;
+}
+#OOYALA{
+    margin:5px;
+    width: 200px;
+    height: 80px;
+    border: 5px solid red;
+    background-image: url(OOYALA_logo.png);
+    background-size: 180px;
+    background-repeat: 
+    no-repeat;
+    background-position: center;
+}
+#OOYALA:hover{
+    margin:5px;
+    width: 200px;
+    height: 80px;
+    border: 5px double red;
+    background-image: url(OOYALA_logo.png);
+    background-size: 180px;
+    background-repeat: 
+    no-repeat;
+    background-position: center;
+}
+#Palantir{
+    margin:5px;
+    width: 200px;
+    height: 80px;
+    border: 5px solid red;
+    background-image: url(Palantir_Technologies_logo.png);
+    background-size: 180px;
+    background-repeat: 
+    no-repeat;
+    background-position: center;
+}
+#Palantir:hover{
+    margin:5px;
+    width: 200px;
+    height: 80px;
+    border: 5px double red;
+    background-image: url(Palantir_Technologies_logo.png);
+    background-size: 180px;
+    background-repeat: 
+    no-repeat;
+    background-position: center;
+}
+#Quora{
+    margin:5px;
+    width: 200px;
+    height: 80px;
+    border: 5px solid red;
+    background-image: url(Quora.png);
+    background-size: 180px;
+    background-repeat: 
+    no-repeat;
+    background-position: center;
+}
+#Quora:hover{
+    margin:5px;
+    width: 200px;
+    height: 80px;
+    border: 5px double red;
+    background-image: url(Quora.png);
+    background-size: 180px;
+    background-repeat: 
+    no-repeat;
+    background-position: center;
+}
+#Tripadvisor{
+    margin:5px;
+    width: 200px;
+    height: 80px;
+    border: 5px solid red;
+    background-image: url(Tripadvisor-Logo-png-hd.png);
+    background-size: 180px;
+    background-repeat: 
+    no-repeat;
+    background-position: center;
+}
+#Tripadvisor:hover{
+    margin:5px;
+    width: 200px;
+    height: 80px;
+    border: 5px double red;
+    background-image: url(Tripadvisor-Logo-png-hd.png);
     background-size: 180px;
     background-repeat: 
     no-repeat;
